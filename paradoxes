@@ -1,5 +1,19 @@
-5 minute talk about interesting paradoxes and fallacies:
-- gell-mann amnesia
+5 minute talk about 3 interesting math problems:
+
 - monty hall problem
 - birthday paradox
 - borsok-ulman theorem
+
+
+Hi, I'm really interested in counterintuitive logical and mathematical facts. Today I thought I'd share three of them with you and explain intuitively as best as I can.
+
+
+The first one is called the birthday paradox. Imagine a room full of randomly chosen people. The question is what is the number of people in which the probability of any two of them sharing the same birthday becomes 1/2. Interestingly the counterintuitive answer is only 23. In a room of 23 people, there is a 50% chance that two of them share the same birthday. What's the explanation? We know that in a room of 367 people, the chance of two of them sharing the same birthday is 100% percent. There are max 366 days to choose from, so by definition, if we have more people than days, some will share a birthday.
+The counterintuitivness comes from the fact that people don't realize that there are actually a lot more pairs of people than people. With 23 people, you get 253 possible pairs, which is a lot more than half. You get 99.9% probability with just 70 people.
+
+
+The second counterintuitive fact I wanted to talk about comes from a theorem in the mathematical field of topology. It's conclusion is that at any time on Earth, there is at least one pair of directly opposing points, which have the same temperature and pressure. The same theorem leads to the conclusion that at any time, there is a pair of opposing points along the equator that have the same temperature. <EXPLANATION>
+
+
+The last thing I wanted to talk about is one of my favourite problems in probability theory, some of you may have heard of it. It's called the Monty Hall problem, named after the host of an old american TV game show. In the game, you as a player have a choice of three closed doors. Behind two of these doors are goats, and behind the last one there is a car. You randomly pick a door. The host, Monty Hall, who knows behind which door the car is, asks you if you want to switch. The question is, is it advantageous to you, if you switch. What do you think? 
+It's actually 
