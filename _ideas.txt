@@ -21,3 +21,11 @@ What's cooking for JavaScript: a look at current TC39 proposals (accepted NDC Os
   in JavaScript and their current status. Pipelines, decorators, null coalescing
   and more is coming, but when? And how will it look like?
   
+Making React front-end flexible for changing requirements
+
+"This code does not exist"
+
+Automatic code formatters on the rise (though maybe only in the JS world), solves problems in teams, fixes issues before they happen.
+
+Problem-solution ordering issues (http://mkremins.github.io/blog/doors-headaches-intellectual-need/)
+  
