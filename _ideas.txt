@@ -35,3 +35,5 @@ How could we improve and simplify integration testing for UI. Cypress, Selenium,
 would do, using property based testing, fuzzy testing, just having smoke tests? mutation testing https://www.fuzzingbook.org/html/MutationAnalysis.html
 
 Show the path of code/execution all the way from clicking a button rendered in React to the network request, to the server response and back.
+
+Checklists for software developers
