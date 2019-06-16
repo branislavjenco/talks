@@ -37,3 +37,5 @@ would do, using property based testing, fuzzy testing, just having smoke tests? 
 Show the path of code/execution all the way from clicking a button rendered in React to the network request, to the server response and back.
 
 Checklists for software developers
+
+A look at refused proposals for the JavaScript language
