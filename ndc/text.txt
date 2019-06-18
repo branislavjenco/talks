@@ -1,0 +1,35 @@
+1. Title page - What's cooking
+
+
+2. Hi - Introduction
+Hi everyone, welcome to JavaScript: What's cooking, in which I tell you something about the current 
+
+3. Outline
+
+
+4. TC39 Process: a primer
+Q: Who's heard of TC39? TC39 is the technical committee that is responsible for steering the Ecmascript specification, which is the spec upon all the JavaScript implementations are based on. They meet every few months to discuss proposals on extending the spec with new features. These proposals go through several stages from first mention to draft, first implementations and all the way to be incorporated into the final spec. Starting with 2015, The spec is updated yearly, that's where the ES2017, ES2018 names come from. ES2019 was finalized in January and will be officially "released" this summer.
+
+
+5. 3 interesting proposals
+
+
+6. Flat, FlatMap
+
+
+7. Optional chaining
+
+
+8. Pipeline operator
+
+
+9. A word of caution
+
+I would like to end with a word of caution. While looking at these new proposals, discussing them and trying them out is exciting, be careful about implementing them in production applications. While the proposals can have polyfills already available from early stages, and can be used with tools like Babel, these proposals can change easily as the they are discussed. Even being in Stage 3 doesn't guarantee that the feature will be a part of the spec, and there have been proposals which got refused in the past. 
+
+If you decide to use polyfills anyway, make sure you know their performance impact and impact on code size. 
+
+I recommend looking at <insert propsal site> to check the state of adoption of the various proposals in our javascript engines, whether it's in the browser or elsewhere.
+
+
+10. Thank you
