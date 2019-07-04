@@ -39,3 +39,5 @@ Show the path of code/execution all the way from clicking a button rendered in R
 Checklists for software developers
 
 A look at refused proposals for the JavaScript language
+
+Lessons learned using Hooks for several months in production
