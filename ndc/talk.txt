@@ -1,0 +1,28 @@
+Hi everyone, in this presentation I'm going to talk about some recent developments in the evolution of the JavaScript programming language. I'll talk a little bit about the process with which new features are introduced into the language and then I'll go through some of the features we can look forward to in the coming months or years.
+
+My name is Branislav, I am a software developer here in Oslo. I work mostly in frontend, with some backend sprinkled in. I work in a data integration platform company called Sesam. Big fan of React.js. I also like learning about programming language theory and working with developer tooling. My hobbies include reading, hiking, cooking and listening to way too many podcasts. 
+
+I want to start by defining some terms. The syntax and semantics of JavaScript that we write in our editors are rooted in a specification called ECMAScript. The name comes from a european standards organization ECMA that resides in Geneva, Switzerland. ECMAScript is a specification document that defines a general purpose scripting language. Various JavaScript implementations, for example in browser engines, Node or the Babel compiler, mostly conform to this specification.
+
+The group of people who are responsible for this spec document is called the TC39, the technical committee 39. It consists of members from several companies in the web space and they meet every two months to discuss how to go forward with the spec. Since 2015, the spec document has yearly updates, that's where the names ES2017, ES2018 come from. Everything they do, the agenda for meetings, the notes from meetings and also specifications for the proposals of new language features are public on their GitHub organization page, TC39.
+
+(2:30)
+
+TC39 has a very well defined process which all new proposals for language additions have to go through. In the beginning, anyone can come and create a proposal. The committee then talks about it and either refuses it or advances it to the next stage. The proposal goes through several stages of evolution, discussions and may be advanced again in other meetings. Stage 3 means the proposal is clearly defined and once it's in stage 4, it's guaranteed to become a part of the next spec release. Proposals advance to stage 4 only if at least two different implementations exist and there exists significant experience using it is. It must also pass committees tests.
+
+With that said, I want to show you some of my favourite small utility features that are coming in this year's specification "release". ES2019 was finalized in January and several of its features are already in the latest version of browser engines and Node. There are no big changes, but there are a few handy utility functions that come this year.
+
+In avascript, we work a lot with both arrays and objects and we often want to transforme between various representations. I'm sure most of you are familiar with the Object.entries method, which returns an array of tuples of the keys and values of the object. We'll now have an inverse method to turn these arrays back into objects. Small thing, but useful.
+
+(5:00)
+
+Next is a simple function called flat to flatten arrays of arrays, again, very handy, and as an argument, you can specify how many levels deep you want to flatten the array. By the way if you are wondering why it's called flat and not flatten, I recommend googling the term smooshGate. This proposal went through some interesting history.
+
+A complimentary feature is an array method called flatMap which performs a map on the array elements and subsequently flattens it. Again, something you can implement yourself, but it's handy to be a method on the array prototype. This function is actually an array version of one of the core functions in functional programming, called bind so if you are interested in that sort of thing, I recommend looking up the connection.
+
+Now, there was a meeting of the TC39 committee just a week or two ago and so I thought I'd give you the most recent news about other features. First of all dynamic imports for dynamically loading in javascript modules are now in stage 4 (implementation in Chrome, FF) and will be a part of ES2020. A related feature is top-level await, with which we'll be able to use the await syntax outside of async methods. This is now stage 3, so implementations in browsers will start appearing. 
+
+An exciting proposal that I think everyone is waiting for is optional chaining and it's brother, nullish coalescing which will help with reducing TypeErorrs when accessing deeply nested objects. I think we all deal with 
+
+
+Finally, if you are into programming languages, I want encourage you to look at the TC39 github, get involved, play around with the proposals. Be careful about using non Stage 4 features in your production code, because until finalization, they can always change, or be rejected. always check compatibility tables between various of your target engines. When you use babel and transpile these features or use a polyfill, make sure you know what will be the consequences to the bundle size of your application and the performance. 
