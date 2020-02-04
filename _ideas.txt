@@ -41,3 +41,5 @@ Checklists for software developers
 A look at refused proposals for the JavaScript language
 
 Lessons learned using Hooks for several months in production
+
+Why immer is the best new library 
