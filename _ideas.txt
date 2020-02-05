@@ -51,3 +51,5 @@ Differences in the object model in Python and JavaScript
 Deep dive into JSON
 
 Computer science is applied philosophy
+
+Tension between domain driven design and Redux architecture
