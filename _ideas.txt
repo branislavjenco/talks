@@ -1,5 +1,12 @@
 Ideas for talks
 
+Used:
+What's cooking for JavaScript: a look at current TC39 proposals (accepted NDC Oslo 2019)
+  In this lightning talk, I go over the current proposals for new language features
+  in JavaScript and their current status. Pipelines, decorators, null coalescing
+  and more is coming, but when? And how will it look like?
+
+Ununsed:
 
 Lisp up your JavaScript - Compile time transformations with Babel Macros
   With the widespread use of tools like Babel, JavaScript is effectively becoming a compiled language. 
@@ -15,12 +22,7 @@ Code your tools: Making your own VS Code extensions
   Built on top of TypeScript, VS Code makes it easy for web developers to build extensions
   using it's tools and API. In this lightning talk I go over how you can start
   extending the editor to your liking and not have to wait for others to build extensions you need.
-  
-What's cooking for JavaScript: a look at current TC39 proposals (accepted NDC Oslo 2019)
-  In this lightning talk, I go over the current proposals for new language features
-  in JavaScript and their current status. Pipelines, decorators, null coalescing
-  and more is coming, but when? And how will it look like?
-  
+    
 Making React front-end flexible for changing requirements
 
 "This code does not exist"
