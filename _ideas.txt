@@ -47,3 +47,5 @@ Why immer is the best new library
 Differences in the object model in Python and JavaScript
 
 Deep dive into JSON
+
+Computer science is applied philosophy
