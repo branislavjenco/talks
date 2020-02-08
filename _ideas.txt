@@ -57,3 +57,5 @@ Tension between domain driven design and Redux architecture
 Object-closure duality in JavaScript vs Python
 
 Deep dive into V8
+
+Something something WebAssembly
