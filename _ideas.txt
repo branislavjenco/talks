@@ -59,3 +59,30 @@ Object-closure duality in JavaScript vs Python
 Deep dive into V8
 
 Something something WebAssembly
+
+
+These are some older things I thought about:
+immediate mode vs retained mode
+
+value semantics vs reference semantics
+
+react vs dom
+
+redux vs services
+
+wrapping stateful apis with stateless apis
+
+The most extremely relevant quote on how we do this: 
+
+"React and Datomic hint at a general strategy for doing this: take a snapshot of the thing you have a reference to, transform the snapshot as if it’s a value, then atomically sync your snapshot with the real thing. The tricky part is providing performant implementations for snapshotting & syncing back."
+
+from http://somethingdoneright.net/2015/07/30/when-object-orientation-works-a-rule-of-thumb.html 
+
+important efforts in this area: 
+React, Datomic
+
+Rich Hickey, creator of Clojure created Datomic, where he's thinking of a Database as a Value (talk with the same name is great)
+
+Also I have yet to read, but there is a paper about this called Out of the Tar Pit, that he references
+
+The idea that React is this for the DOM, or generally for UI, blogpost by Andre Staltz, something like whats the best thing about React. It's not JSX or components, is that it wraps a retained mode graphics api like the DOM with an immediate mode api,
