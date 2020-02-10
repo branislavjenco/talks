@@ -60,6 +60,8 @@ Deep dive into V8
 
 Something something WebAssembly
 
+React is Docker is Kubernetes: Value vs Reference semantics
+
 
 These are some older things I thought about:
 immediate mode vs retained mode
