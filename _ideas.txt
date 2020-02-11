@@ -5,6 +5,17 @@ What's cooking for JavaScript: a look at current TC39 proposals (accepted NDC Os
   In this lightning talk, I go over the current proposals for new language features
   in JavaScript and their current status. Pipelines, decorators, null coalescing
   and more is coming, but when? And how will it look like?
+  
+  
+Working on:
+
+Making React front-end flexible for changing requirements
+
+Mutation is okay if it's encapsulated and isolated
+
+Using the Redux Toolkit for fun and profit
+
+
 
 Ununsed:
 
@@ -23,15 +34,11 @@ Code your tools: Making your own VS Code extensions
   using it's tools and API. In this lightning talk I go over how you can start
   extending the editor to your liking and not have to wait for others to build extensions you need.
     
-Making React front-end flexible for changing requirements
-
 "This code does not exist"
 
 Automatic code formatters on the rise (though maybe only in the JS world), solves problems in teams, fixes issues before they happen.
 
 Problem-solution ordering issues (http://mkremins.github.io/blog/doors-headaches-intellectual-need/)
-
-Mutation is okay if it's encapsulated and isolated
   
 How could we improve and simplify integration testing for UI. Cypress, Selenium, unit tests, dont test logic, test what the user
 would do, using property based testing, fuzzy testing, just having smoke tests? mutation testing https://www.fuzzingbook.org/html/MutationAnalysis.html
@@ -61,9 +68,6 @@ Deep dive into V8
 Something something WebAssembly
 
 React is Docker is Kubernetes: Value vs Reference semantics
-
-Using the Redux Toolkit for fun and profit
-
 
 These are some older things I thought about:
 immediate mode vs retained mode
