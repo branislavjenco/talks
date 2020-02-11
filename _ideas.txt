@@ -62,6 +62,8 @@ Something something WebAssembly
 
 React is Docker is Kubernetes: Value vs Reference semantics
 
+Using the Redux Toolkit for fun and profit
+
 
 These are some older things I thought about:
 immediate mode vs retained mode
