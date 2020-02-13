@@ -9,14 +9,20 @@ What's cooking for JavaScript: a look at current TC39 proposals (accepted NDC Os
   
 Working on:
 
+React Hooks: Wrapping stateful APIs with stateless APIs
+Hooks have been a part of the React ecosystem for more than a year. In my talk, I share experience running them in production and frame Hooks as a tool that lets developers do the same kind of magic that React itself does - wrapping stateful logic with a stateless API. 
+
+
+
+
 Making React front-end flexible for changing requirements
 
 Mutation is okay if it's encapsulated and isolated
 
 Using the Redux Toolkit for fun and profit
 
-How to measure performance on the web
-
+Quick tips on measuring performance on the web
+Performance in SPAs is 
 
 
 Ununsed:
