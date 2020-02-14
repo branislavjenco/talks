@@ -14,6 +14,9 @@ React Hooks: Wrapping stateful APIs with stateless APIs
 
 Crash course in Python object model for JS developers
   Both JavaScript and Python are popular dynamically typed scripting languages. Yet they have some important differences that are not immediately apparent. As someone who is working with both I want to share some common pitfalls JS devs might fall into when working with backend Python code. 
+  
+Thin clients fat clients
+Way too easy for us to build fat clients these days, especially if teams are divided between frontend and backend. Tradeoffs between adding a feature on the frontend or on the backend.  
 
 Making React front-end flexible for changing requirements
 
