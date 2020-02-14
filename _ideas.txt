@@ -18,6 +18,8 @@ Crash course in Python object model for JS developers
 Thin clients fat clients
 Way too easy for us to build fat clients these days, especially if teams are divided between frontend and backend. Tradeoffs between adding a feature on the frontend or on the backend.  
 
+Would be really cool to do something with webAssembly
+
 Making React front-end flexible for changing requirements
 
 Mutation is okay if it's encapsulated and isolated
