@@ -10,10 +10,10 @@ What's cooking for JavaScript: a look at current TC39 proposals (accepted NDC Os
 Working on:
 
 React Hooks: Wrapping stateful APIs with stateless APIs
-Hooks have been a part of the React ecosystem for more than a year. In my talk, I share experience running them in production and frame Hooks as a tool that lets developers do the same kind of magic that React itself does - wrapping stateful logic with a stateless API. 
+  Hooks have been a part of the React ecosystem for more than a year. In my talk, I share experience running them in production and frame Hooks as a tool that lets developers do the same kind of magic that React itself does - wrapping stateful, imperative logic with a stateless, declarative API. 
 
-
-
+Crash course in Python object model for JS developers
+  Both JavaScript and Python are popular dynamically typed scripting languages. Yet they have some important differences that are not immediately apparent. As someone who is working with both I want to share some common pitfalls JS devs might fall into when working with backend Python code. 
 
 Making React front-end flexible for changing requirements
 
