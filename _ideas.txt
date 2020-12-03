@@ -106,4 +106,11 @@ Rich Hickey, creator of Clojure created Datomic, where he's thinking of a Databa
 
 Also I have yet to read, but there is a paper about this called Out of the Tar Pit, that he references
 
+
 The idea that React is this for the DOM, or generally for UI, blogpost by Andre Staltz, something like whats the best thing about React. It's not JSX or components, is that it wraps a retained mode graphics api like the DOM with an immediate mode api,
+
+"But it's all sort of the same type of thing: wrapping stateful APIs with stateless (declarative) APIs. It's the same thing with React, Docker, Kubernetes, Datomic, Sesam. The stateful API in React is the browser DOM, in Docker it's the OS commands, in K8s it's commands for orchestraing containers manually, in Datomic and Sesam it's the traiditional database APIs." - me
+
+Also, how does this relate to the concept of "Everything is materialized views/derived data" https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/. Feels like there is a connection.
+Materialized Views = magically self-updating cache
+Everything is rendering 
