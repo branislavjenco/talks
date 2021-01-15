@@ -114,3 +114,5 @@ The idea that React is this for the DOM, or generally for UI, blogpost by Andre 
 Also, how does this relate to the concept of "Everything is materialized views/derived data" https://www.confluent.io/blog/turning-the-database-inside-out-with-apache-samza/. Feels like there is a connection.
 Materialized Views = magically self-updating cache
 Everything is rendering 
+
+"this code does not exist"
