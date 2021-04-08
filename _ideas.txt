@@ -116,3 +116,5 @@ Materialized Views = magically self-updating cache
 Everything is rendering 
 
 "this code does not exist"
+
+Imagine if everything ever written on a typewriter had been written by the guys who invented the typewriter,
